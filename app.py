@@ -63,7 +63,7 @@ if st.button("Prediction"):
         'partial paresis': [paresis],
         'muscle stiffness': [muscle],
         'Alopecia': [alopecia],
-        'Obecity': [obesity]
+        'Obesity': [obesity]
     })
 
     # Realiza la predicción
