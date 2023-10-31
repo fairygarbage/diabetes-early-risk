@@ -12,7 +12,7 @@ st.title("Early Diabetes risk")
 st.header("Ingrese las características")
 
 # Crea una entrada de texto para cada característica (asegúrate de que coincidan con las columnas de tus datos)
-age = st.text_input("Age", 0.0)
+age = st.number_input("Age",  min_value=1.0)
 st.write("Gender")
 gender = st.selectbox("Gender: ",['Male', 'Female'])
 st.write("Polyuria")
